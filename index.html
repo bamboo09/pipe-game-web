@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Pipe Tycoon - Subsea Network</title>
+    <link rel="stylesheet" href="./src/styles.css?v=20260528-6" />
+  </head>
+  <body>
+    <section id="welcomeScreen" class="welcome-screen">
+      <div class="welcome-panel">
+        <p class="eyebrow">OFFSHORE DEFENSE GRID</p>
+        <h1>Pipe Tycoon</h1>
+        <p class="welcome-copy">Build a subsea pipeline network across hostile terrain. Place hubs, draw routes, dodge hazards, and beat the budget.</p>
+        <button id="startFirstBtn" type="button" class="primary">Start Level 1</button>
+        <div id="levelSelect" class="level-select" aria-label="Unlocked levels"></div>
+      </div>
+    </section>
+    <main class="game-shell">
+      <section class="board-wrap">
+        <canvas id="gameCanvas" width="1400" height="760" aria-label="Route drawing area"></canvas>
+        <div id="toast" class="toast" hidden></div>
+        <div id="stateCompanion" class="state-companion" aria-hidden="true">
+          <canvas id="stateCompanionCanvas" width="260" height="260"></canvas>
+        </div>
+        <div id="successStateScene" class="success-state-scene" hidden aria-hidden="true">
+          <div class="success-cost-readout">
+            <span class="readout-label">Final cost</span>
+            <span id="successCostRoll" class="readout-value">$0.00M</span>
+          </div>
+          <canvas id="successStateCanvas" width="720" height="520"></canvas>
+        </div>
+        <div id="assistModal" class="modal" hidden>
+          <div class="modal-panel">
+            <p class="modal-title">Need a field hint?</p>
+            <p class="modal-copy">You have missed the budget several times. Show recommended manifold positions for this level?</p>
+            <div class="modal-actions">
+              <button id="declineHintBtn" type="button">Not now</button>
+              <button id="acceptHintBtn" type="button" class="primary">Show hint</button>
+            </div>
+          </div>
+        </div>
+        <div id="equipmentModal" class="modal" hidden>
+          <div class="modal-panel">
+            <p class="modal-title">New equipment unlocked</p>
+            <p class="modal-copy">Manifold is now available. Use it to collect multiple wells before sending a trunkline to the PLEM.</p>
+            <div class="modal-actions single">
+              <button id="equipmentOkBtn" type="button" class="primary">Continue</button>
+            </div>
+          </div>
+        </div>
+        <div id="levelNoticeModal" class="modal" hidden>
+          <div class="modal-panel">
+            <p id="levelNoticeTitle" class="modal-title">New rule</p>
+            <p id="levelNoticeCopy" class="modal-copy"></p>
+            <div class="modal-actions single">
+              <button id="levelNoticeOkBtn" type="button" class="primary">Start</button>
+            </div>
+          </div>
+        </div>
+        <div id="clearModal" class="modal" hidden>
+          <div class="modal-panel">
+            <p class="modal-title">Level cleared</p>
+            <div id="clearStateScene" class="state-scene" aria-hidden="true">
+              <canvas id="clearStateCanvas" width="360" height="240"></canvas>
+            </div>
+            <figure id="pandaCelebration" class="panda-celebration" hidden>
+              <img id="pandaCelebrationImg" alt="Celebration panda animation" />
+              <figcaption id="pandaCelebrationLabel"></figcaption>
+            </figure>
+            <p id="clearModalCopy" class="modal-copy"></p>
+            <div class="modal-actions">
+              <button id="clearSolutionBtn" type="button">View solution</button>
+              <button id="clearNextBtn" type="button" class="primary">Next level</button>
+            </div>
+          </div>
+        </div>
+        <div id="lockedModal" class="modal" hidden>
+          <div class="modal-panel">
+            <p class="modal-title">More levels coming</p>
+            <p class="modal-copy">The next offshore block is still being prepared. New maps and official solver routes will be unlocked later.</p>
+            <div class="modal-actions single">
+              <button id="lockedOkBtn" type="button" class="primary">Stay here</button>
+            </div>
+          </div>
+        </div>
+        <div id="deleteManifoldModal" class="modal" hidden>
+          <div class="modal-panel">
+            <p class="modal-title">Delete manifold?</p>
+            <p id="deleteManifoldCopy" class="modal-copy">Connected pipes will also be removed.</p>
+            <div class="modal-actions">
+              <button id="cancelDeleteManifoldBtn" type="button">Cancel</button>
+              <button id="confirmDeleteManifoldBtn" type="button" class="primary">Delete</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="hud" aria-label="Level information">
+        <div class="hud-header">
+          <div>
+            <p class="eyebrow">COMMAND DECK</p>
+            <h1>Pipe Tycoon</h1>
+          </div>
+          <button id="backHomeBtn" type="button" class="icon-button" aria-label="Back to start">Back</button>
+        </div>
+        <div class="metrics">
+          <span id="levelLabel">Level 1</span>
+          <span id="costLabel">$0.00M</span>
+          <span id="targetLabel">Target $0.00M</span>
+          <span id="manifoldLabel">Manifold 0/0</span>
+          <span id="mapLabel">Map 5000m x 5000m</span>
+          <span id="bendLabel">Rmin 150m</span>
+          <span id="officialCostLabel" hidden>Official $0.00M</span>
+        </div>
+        <nav class="toolbar" aria-label="Game actions">
+          <button id="placeManifoldBtn" type="button">Place M</button>
+          <button id="hintBtn" type="button" hidden>Hint M</button>
+          <button id="solutionBtn" type="button" hidden>Solution</button>
+          <div id="solutionViewControls" class="segmented" hidden>
+            <button id="viewBothBtn" type="button">Both</button>
+            <button id="viewOfficialBtn" type="button">Official</button>
+            <button id="viewPlayerBtn" type="button">Player</button>
+          </div>
+          <button id="undoBtn" type="button">Undo</button>
+          <button id="resetBtn" type="button">Reset</button>
+          <button id="finishBtn" type="button" class="primary">Settle</button>
+          <button id="nextBtn" type="button" hidden>Next</button>
+        </nav>
+      </aside>
+    </main>
+
+    <script type="module" src="./src/main.js?v=20260601-preload-clear-video"></script>
+  </body>
+</html>

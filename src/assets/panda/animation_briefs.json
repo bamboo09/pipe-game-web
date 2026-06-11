@@ -1,0 +1,362 @@
+[
+  {
+    "id": "engineer_blueprint_focused",
+    "label": "Engineer Blueprint Focused",
+    "source_icon": "./src/assets/panda/icons/engineer_blueprint_focused.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/engineer_blueprint_focused/engineer_blueprint_focused_000.png ... engineer_blueprint_focused_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create construction animation: arms lift/push/operate equipment, body leans with effort, object reacts, success sparkle.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "engineer_desktop_coding",
+    "label": "Engineer Desktop Coding",
+    "source_icon": "./src/assets/panda/icons/engineer_desktop_coding.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/engineer_desktop_coding/engineer_desktop_coding_000.png ... engineer_desktop_coding_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create working animation: hands type or operate tools, head looks between screen/tool and viewer, small completion sparkle.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "builder_carrying_bricks",
+    "label": "Builder Carrying Bricks",
+    "source_icon": "./src/assets/panda/icons/builder_carrying_bricks.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/builder_carrying_bricks/builder_carrying_bricks_000.png ... builder_carrying_bricks_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create construction animation: arms lift/push/operate equipment, body leans with effort, object reacts, success sparkle.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "cozy_gaming_excited",
+    "label": "Cozy Gaming Excited",
+    "source_icon": "./src/assets/panda/icons/cozy_gaming_excited.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/cozy_gaming_excited/cozy_gaming_excited_000.png ... cozy_gaming_excited_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create playful bounce animation: squash and stretch body, arms move independently, prop reacts naturally.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "burger_snack_hungry",
+    "label": "Burger Snack Hungry",
+    "source_icon": "./src/assets/panda/icons/burger_snack_hungry.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/burger_snack_hungry/burger_snack_hungry_000.png ... burger_snack_hungry_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create true frame-by-frame eating animation: panda raises food, takes bites, food visibly shrinks/disappears, cheeks puff, belly rumble at the end.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "office_planning_busy",
+    "label": "Office Planning Busy",
+    "source_icon": "./src/assets/panda/icons/office_planning_busy.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/office_planning_busy/office_planning_busy_000.png ... office_planning_busy_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create working animation: hands type or operate tools, head looks between screen/tool and viewer, small completion sparkle.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "beanbag_gaming_relaxed",
+    "label": "Beanbag Gaming Relaxed",
+    "source_icon": "./src/assets/panda/icons/beanbag_gaming_relaxed.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/beanbag_gaming_relaxed/beanbag_gaming_relaxed_000.png ... beanbag_gaming_relaxed_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create playful bounce animation: squash and stretch body, arms move independently, prop reacts naturally.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "surveyor_tripod_confident",
+    "label": "Surveyor Tripod Confident",
+    "source_icon": "./src/assets/panda/icons/surveyor_tripod_confident.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/surveyor_tripod_confident/surveyor_tripod_confident_000.png ... surveyor_tripod_confident_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create construction animation: arms lift/push/operate equipment, body leans with effort, object reacts, success sparkle.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "sleepy_desk_tired",
+    "label": "Sleepy Desk Tired",
+    "source_icon": "./src/assets/panda/icons/sleepy_desk_tired.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/sleepy_desk_tired/sleepy_desk_tired_000.png ... sleepy_desk_tired_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create breathing sleep animation: body rises/falls, eyes relaxed, subtle head nod, floating Z symbols.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "laptop_working_calm",
+    "label": "Laptop Working Calm",
+    "source_icon": "./src/assets/panda/icons/laptop_working_calm.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/laptop_working_calm/laptop_working_calm_000.png ... laptop_working_calm_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create working animation: hands type or operate tools, head looks between screen/tool and viewer, small completion sparkle.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "basketball_ready_playful",
+    "label": "Basketball Ready Playful",
+    "source_icon": "./src/assets/panda/icons/basketball_ready_playful.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/basketball_ready_playful/basketball_ready_playful_000.png ... basketball_ready_playful_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create playful bounce animation: squash and stretch body, arms move independently, prop reacts naturally.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "surveyor_tripod_notes",
+    "label": "Surveyor Tripod Notes",
+    "source_icon": "./src/assets/panda/icons/surveyor_tripod_notes.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/surveyor_tripod_notes/surveyor_tripod_notes_000.png ... surveyor_tripod_notes_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create construction animation: arms lift/push/operate equipment, body leans with effort, object reacts, success sparkle.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "blanket_nap_sleepy",
+    "label": "Blanket Nap Sleepy",
+    "source_icon": "./src/assets/panda/icons/blanket_nap_sleepy.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/blanket_nap_sleepy/blanket_nap_sleepy_000.png ... blanket_nap_sleepy_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create breathing sleep animation: body rises/falls, eyes relaxed, subtle head nod, floating Z symbols.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "sofa_crash_exhausted",
+    "label": "Sofa Crash Exhausted",
+    "source_icon": "./src/assets/panda/icons/sofa_crash_exhausted.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/sofa_crash_exhausted/sofa_crash_exhausted_000.png ... sofa_crash_exhausted_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create breathing sleep animation: body rises/falls, eyes relaxed, subtle head nod, floating Z symbols.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "milk_bottle_resting",
+    "label": "Milk Bottle Resting",
+    "source_icon": "./src/assets/panda/icons/milk_bottle_resting.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/milk_bottle_resting/milk_bottle_resting_000.png ... milk_bottle_resting_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create celebration animation: character waves, blinks, body bounces, small star or bubble effects.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "burger_belly_full",
+    "label": "Burger Belly Full",
+    "source_icon": "./src/assets/panda/icons/burger_belly_full.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/burger_belly_full/burger_belly_full_000.png ... burger_belly_full_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create true frame-by-frame eating animation: panda raises food, takes bites, food visibly shrinks/disappears, cheeks puff, belly rumble at the end.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "handheld_gaming_chill",
+    "label": "Handheld Gaming Chill",
+    "source_icon": "./src/assets/panda/icons/handheld_gaming_chill.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/handheld_gaming_chill/handheld_gaming_chill_000.png ... handheld_gaming_chill_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create playful bounce animation: squash and stretch body, arms move independently, prop reacts naturally.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "photographer_shooting",
+    "label": "Photographer Shooting",
+    "source_icon": "./src/assets/panda/icons/photographer_shooting.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/photographer_shooting/photographer_shooting_000.png ... photographer_shooting_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create celebration animation: character waves, blinks, body bounces, small star or bubble effects.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "shell_pearl_surprised",
+    "label": "Shell Pearl Surprised",
+    "source_icon": "./src/assets/panda/icons/shell_pearl_surprised.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/shell_pearl_surprised/shell_pearl_surprised_000.png ... shell_pearl_surprised_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create celebration animation: character waves, blinks, body bounces, small star or bubble effects.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "bubble_suit_excited",
+    "label": "Bubble Suit Excited",
+    "source_icon": "./src/assets/panda/icons/bubble_suit_excited.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/bubble_suit_excited/bubble_suit_excited_000.png ... bubble_suit_excited_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create playful bounce animation: squash and stretch body, arms move independently, prop reacts naturally.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "subsea_control_lever",
+    "label": "Subsea Control Lever",
+    "source_icon": "./src/assets/panda/icons/subsea_control_lever.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/subsea_control_lever/subsea_control_lever_000.png ... subsea_control_lever_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create construction animation: arms lift/push/operate equipment, body leans with effort, object reacts, success sparkle.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "pipe_push_determined",
+    "label": "Pipe Push Determined",
+    "source_icon": "./src/assets/panda/icons/pipe_push_determined.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/pipe_push_determined/pipe_push_determined_000.png ... pipe_push_determined_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create construction animation: arms lift/push/operate equipment, body leans with effort, object reacts, success sparkle.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "valve_inspection_curious",
+    "label": "Valve Inspection Curious",
+    "source_icon": "./src/assets/panda/icons/valve_inspection_curious.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/valve_inspection_curious/valve_inspection_curious_000.png ... valve_inspection_curious_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create construction animation: arms lift/push/operate equipment, body leans with effort, object reacts, success sparkle.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "clam_shell_resting",
+    "label": "Clam Shell Resting",
+    "source_icon": "./src/assets/panda/icons/clam_shell_resting.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/clam_shell_resting/clam_shell_resting_000.png ... clam_shell_resting_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create celebration animation: character waves, blinks, body bounces, small star or bubble effects.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "diver_swim_happy",
+    "label": "Diver Swim Happy",
+    "source_icon": "./src/assets/panda/icons/diver_swim_happy.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/diver_swim_happy/diver_swim_happy_000.png ... diver_swim_happy_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create underwater swimming animation: arms and legs paddle, body drifts, bubbles rise, expression stays cute.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "turtle_ride_adventurous",
+    "label": "Turtle Ride Adventurous",
+    "source_icon": "./src/assets/panda/icons/turtle_ride_adventurous.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/turtle_ride_adventurous/turtle_ride_adventurous_000.png ... turtle_ride_adventurous_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create underwater swimming animation: arms and legs paddle, body drifts, bubbles rise, expression stays cute.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "seaweed_crowned_proud",
+    "label": "Seaweed Crowned Proud",
+    "source_icon": "./src/assets/panda/icons/seaweed_crowned_proud.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/seaweed_crowned_proud/seaweed_crowned_proud_000.png ... seaweed_crowned_proud_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create celebration animation: character waves, blinks, body bounces, small star or bubble effects.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "mermaid_wave_cheerful",
+    "label": "Mermaid Wave Cheerful",
+    "source_icon": "./src/assets/panda/icons/mermaid_wave_cheerful.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/mermaid_wave_cheerful/mermaid_wave_cheerful_000.png ... mermaid_wave_cheerful_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create underwater swimming animation: arms and legs paddle, body drifts, bubbles rise, expression stays cute.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "jellyfish_net_playful",
+    "label": "Jellyfish Net Playful",
+    "source_icon": "./src/assets/panda/icons/jellyfish_net_playful.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/jellyfish_net_playful/jellyfish_net_playful_000.png ... jellyfish_net_playful_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create underwater swimming animation: arms and legs paddle, body drifts, bubbles rise, expression stays cute.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "fish_friend_delighted",
+    "label": "Fish Friend Delighted",
+    "source_icon": "./src/assets/panda/icons/fish_friend_delighted.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/fish_friend_delighted/fish_friend_delighted_000.png ... fish_friend_delighted_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create underwater swimming animation: arms and legs paddle, body drifts, bubbles rise, expression stays cute.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "kelp_swing_giggly",
+    "label": "Kelp Swing Giggly",
+    "source_icon": "./src/assets/panda/icons/kelp_swing_giggly.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/kelp_swing_giggly/kelp_swing_giggly_000.png ... kelp_swing_giggly_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create celebration animation: character waves, blinks, body bounces, small star or bubble effects.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "pearl_hug_shy",
+    "label": "Pearl Hug Shy",
+    "source_icon": "./src/assets/panda/icons/pearl_hug_shy.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/pearl_hug_shy/pearl_hug_shy_000.png ... pearl_hug_shy_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create celebration animation: character waves, blinks, body bounces, small star or bubble effects.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "ghost_balloon_spooked",
+    "label": "Ghost Balloon Spooked",
+    "source_icon": "./src/assets/panda/icons/ghost_balloon_spooked.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/ghost_balloon_spooked/ghost_balloon_spooked_000.png ... ghost_balloon_spooked_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create celebration animation: character waves, blinks, body bounces, small star or bubble effects.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "seahorse_chase_curious",
+    "label": "Seahorse Chase Curious",
+    "source_icon": "./src/assets/panda/icons/seahorse_chase_curious.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/seahorse_chase_curious/seahorse_chase_curious_000.png ... seahorse_chase_curious_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create underwater swimming animation: arms and legs paddle, body drifts, bubbles rise, expression stays cute.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "beach_umbrella_relaxed",
+    "label": "Beach Umbrella Relaxed",
+    "source_icon": "./src/assets/panda/icons/beach_umbrella_relaxed.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/beach_umbrella_relaxed/beach_umbrella_relaxed_000.png ... beach_umbrella_relaxed_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create celebration animation: character waves, blinks, body bounces, small star or bubble effects.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  },
+  {
+    "id": "sandcastle_builder_proud",
+    "label": "Sandcastle Builder Proud",
+    "source_icon": "./src/assets/panda/icons/sandcastle_builder_proud.png",
+    "recommended_output": "./UnityAssets/PandaCelebrations/sandcastle_builder_proud/sandcastle_builder_proud_000.png ... sandcastle_builder_proud_047.png",
+    "fps": 12,
+    "duration_seconds": 4,
+    "direction": "Create construction animation: arms lift/push/operate equipment, body leans with effort, object reacts, success sparkle.",
+    "avoid": "Do not warp the whole image as one flat card. Character body parts must change pose or use true generated frames."
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "engineer_blueprint_focused",
+    "label": "Engineer Blueprint Focused",
+    "effect": "build",
+    "icon": "./src/assets/panda/icons/engineer_blueprint_focused.png",
+    "animation": "./src/assets/panda/animations/engineer_blueprint_focused.gif"
+  },
+  {
+    "id": "engineer_desktop_coding",
+    "label": "Engineer Desktop Coding",
+    "effect": "work",
+    "icon": "./src/assets/panda/icons/engineer_desktop_coding.png",
+    "animation": "./src/assets/panda/animations/engineer_desktop_coding.gif"
+  },
+  {
+    "id": "builder_carrying_bricks",
+    "label": "Builder Carrying Bricks",
+    "effect": "build",
+    "icon": "./src/assets/panda/icons/builder_carrying_bricks.png",
+    "animation": "./src/assets/panda/animations/builder_carrying_bricks.gif"
+  },
+  {
+    "id": "cozy_gaming_excited",
+    "label": "Cozy Gaming Excited",
+    "effect": "bounce",
+    "icon": "./src/assets/panda/icons/cozy_gaming_excited.png",
+    "animation": "./src/assets/panda/animations/cozy_gaming_excited.gif"
+  },
+  {
+    "id": "burger_snack_hungry",
+    "label": "Burger Snack Hungry",
+    "effect": "eat",
+    "icon": "./src/assets/panda/icons/burger_snack_hungry.png",
+    "animation": "./src/assets/panda/animations/burger_snack_hungry.gif"
+  },
+  {
+    "id": "office_planning_busy",
+    "label": "Office Planning Busy",
+    "effect": "work",
+    "icon": "./src/assets/panda/icons/office_planning_busy.png",
+    "animation": "./src/assets/panda/animations/office_planning_busy.gif"
+  },
+  {
+    "id": "beanbag_gaming_relaxed",
+    "label": "Beanbag Gaming Relaxed",
+    "effect": "bounce",
+    "icon": "./src/assets/panda/icons/beanbag_gaming_relaxed.png",
+    "animation": "./src/assets/panda/animations/beanbag_gaming_relaxed.gif"
+  },
+  {
+    "id": "surveyor_tripod_confident",
+    "label": "Surveyor Tripod Confident",
+    "effect": "build",
+    "icon": "./src/assets/panda/icons/surveyor_tripod_confident.png",
+    "animation": "./src/assets/panda/animations/surveyor_tripod_confident.gif"
+  },
+  {
+    "id": "sleepy_desk_tired",
+    "label": "Sleepy Desk Tired",
+    "effect": "sleep",
+    "icon": "./src/assets/panda/icons/sleepy_desk_tired.png",
+    "animation": "./src/assets/panda/animations/sleepy_desk_tired.gif"
+  },
+  {
+    "id": "laptop_working_calm",
+    "label": "Laptop Working Calm",
+    "effect": "work",
+    "icon": "./src/assets/panda/icons/laptop_working_calm.png",
+    "animation": "./src/assets/panda/animations/laptop_working_calm.gif"
+  },
+  {
+    "id": "basketball_ready_playful",
+    "label": "Basketball Ready Playful",
+    "effect": "bounce",
+    "icon": "./src/assets/panda/icons/basketball_ready_playful.png",
+    "animation": "./src/assets/panda/animations/basketball_ready_playful.gif"
+  },
+  {
+    "id": "surveyor_tripod_notes",
+    "label": "Surveyor Tripod Notes",
+    "effect": "build",
+    "icon": "./src/assets/panda/icons/surveyor_tripod_notes.png",
+    "animation": "./src/assets/panda/animations/surveyor_tripod_notes.gif"
+  },
+  {
+    "id": "blanket_nap_sleepy",
+    "label": "Blanket Nap Sleepy",
+    "effect": "sleep",
+    "icon": "./src/assets/panda/icons/blanket_nap_sleepy.png",
+    "animation": "./src/assets/panda/animations/blanket_nap_sleepy.gif"
+  },
+  {
+    "id": "sofa_crash_exhausted",
+    "label": "Sofa Crash Exhausted",
+    "effect": "sleep",
+    "icon": "./src/assets/panda/icons/sofa_crash_exhausted.png",
+    "animation": "./src/assets/panda/animations/sofa_crash_exhausted.gif"
+  },
+  {
+    "id": "milk_bottle_resting",
+    "label": "Milk Bottle Resting",
+    "effect": "celebrate",
+    "icon": "./src/assets/panda/icons/milk_bottle_resting.png",
+    "animation": "./src/assets/panda/animations/milk_bottle_resting.gif"
+  },
+  {
+    "id": "burger_belly_full",
+    "label": "Burger Belly Full",
+    "effect": "eat",
+    "icon": "./src/assets/panda/icons/burger_belly_full.png",
+    "animation": "./src/assets/panda/animations/burger_belly_full.gif"
+  },
+  {
+    "id": "handheld_gaming_chill",
+    "label": "Handheld Gaming Chill",
+    "effect": "bounce",
+    "icon": "./src/assets/panda/icons/handheld_gaming_chill.png",
+    "animation": "./src/assets/panda/animations/handheld_gaming_chill.gif"
+  },
+  {
+    "id": "photographer_shooting",
+    "label": "Photographer Shooting",
+    "effect": "celebrate",
+    "icon": "./src/assets/panda/icons/photographer_shooting.png",
+    "animation": "./src/assets/panda/animations/photographer_shooting.gif"
+  },
+  {
+    "id": "shell_pearl_surprised",
+    "label": "Shell Pearl Surprised",
+    "effect": "celebrate",
+    "icon": "./src/assets/panda/icons/shell_pearl_surprised.png",
+    "animation": "./src/assets/panda/animations/shell_pearl_surprised.gif"
+  },
+  {
+    "id": "bubble_suit_excited",
+    "label": "Bubble Suit Excited",
+    "effect": "bounce",
+    "icon": "./src/assets/panda/icons/bubble_suit_excited.png",
+    "animation": "./src/assets/panda/animations/bubble_suit_excited.gif"
+  },
+  {
+    "id": "subsea_control_lever",
+    "label": "Subsea Control Lever",
+    "effect": "build",
+    "icon": "./src/assets/panda/icons/subsea_control_lever.png",
+    "animation": "./src/assets/panda/animations/subsea_control_lever.gif"
+  },
+  {
+    "id": "pipe_push_determined",
+    "label": "Pipe Push Determined",
+    "effect": "build",
+    "icon": "./src/assets/panda/icons/pipe_push_determined.png",
+    "animation": "./src/assets/panda/animations/pipe_push_determined.gif"
+  },
+  {
+    "id": "valve_inspection_curious",
+    "label": "Valve Inspection Curious",
+    "effect": "build",
+    "icon": "./src/assets/panda/icons/valve_inspection_curious.png",
+    "animation": "./src/assets/panda/animations/valve_inspection_curious.gif"
+  },
+  {
+    "id": "clam_shell_resting",
+    "label": "Clam Shell Resting",
+    "effect": "celebrate",
+    "icon": "./src/assets/panda/icons/clam_shell_resting.png",
+    "animation": "./src/assets/panda/animations/clam_shell_resting.gif"
+  },
+  {
+    "id": "diver_swim_happy",
+    "label": "Diver Swim Happy",
+    "effect": "swim",
+    "icon": "./src/assets/panda/icons/diver_swim_happy.png",
+    "animation": "./src/assets/panda/animations/diver_swim_happy.gif"
+  },
+  {
+    "id": "turtle_ride_adventurous",
+    "label": "Turtle Ride Adventurous",
+    "effect": "swim",
+    "icon": "./src/assets/panda/icons/turtle_ride_adventurous.png",
+    "animation": "./src/assets/panda/animations/turtle_ride_adventurous.gif"
+  },
+  {
+    "id": "seaweed_crowned_proud",
+    "label": "Seaweed Crowned Proud",
+    "effect": "celebrate",
+    "icon": "./src/assets/panda/icons/seaweed_crowned_proud.png",
+    "animation": "./src/assets/panda/animations/seaweed_crowned_proud.gif"
+  },
+  {
+    "id": "mermaid_wave_cheerful",
+    "label": "Mermaid Wave Cheerful",
+    "effect": "swim",
+    "icon": "./src/assets/panda/icons/mermaid_wave_cheerful.png",
+    "animation": "./src/assets/panda/animations/mermaid_wave_cheerful.gif"
+  },
+  {
+    "id": "jellyfish_net_playful",
+    "label": "Jellyfish Net Playful",
+    "effect": "swim",
+    "icon": "./src/assets/panda/icons/jellyfish_net_playful.png",
+    "animation": "./src/assets/panda/animations/jellyfish_net_playful.gif"
+  },
+  {
+    "id": "fish_friend_delighted",
+    "label": "Fish Friend Delighted",
+    "effect": "swim",
+    "icon": "./src/assets/panda/icons/fish_friend_delighted.png",
+    "animation": "./src/assets/panda/animations/fish_friend_delighted.gif"
+  },
+  {
+    "id": "kelp_swing_giggly",
+    "label": "Kelp Swing Giggly",
+    "effect": "celebrate",
+    "icon": "./src/assets/panda/icons/kelp_swing_giggly.png",
+    "animation": "./src/assets/panda/animations/kelp_swing_giggly.gif"
+  },
+  {
+    "id": "pearl_hug_shy",
+    "label": "Pearl Hug Shy",
+    "effect": "celebrate",
+    "icon": "./src/assets/panda/icons/pearl_hug_shy.png",
+    "animation": "./src/assets/panda/animations/pearl_hug_shy.gif"
+  },
+  {
+    "id": "ghost_balloon_spooked",
+    "label": "Ghost Balloon Spooked",
+    "effect": "celebrate",
+    "icon": "./src/assets/panda/icons/ghost_balloon_spooked.png",
+    "animation": "./src/assets/panda/animations/ghost_balloon_spooked.gif"
+  },
+  {
+    "id": "seahorse_chase_curious",
+    "label": "Seahorse Chase Curious",
+    "effect": "swim",
+    "icon": "./src/assets/panda/icons/seahorse_chase_curious.png",
+    "animation": "./src/assets/panda/animations/seahorse_chase_curious.gif"
+  },
+  {
+    "id": "beach_umbrella_relaxed",
+    "label": "Beach Umbrella Relaxed",
+    "effect": "celebrate",
+    "icon": "./src/assets/panda/icons/beach_umbrella_relaxed.png",
+    "animation": "./src/assets/panda/animations/beach_umbrella_relaxed.gif"
+  },
+  {
+    "id": "sandcastle_builder_proud",
+    "label": "Sandcastle Builder Proud",
+    "effect": "build",
+    "icon": "./src/assets/panda/icons/sandcastle_builder_proud.png",
+    "animation": "./src/assets/panda/animations/sandcastle_builder_proud.gif"
+  }
+]
