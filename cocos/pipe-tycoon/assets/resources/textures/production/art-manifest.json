@@ -1,0 +1,49 @@
+{
+  "source": "D:/desktop/管道优化1",
+  "maps": [
+    "textures/production/maps/map_01",
+    "textures/production/maps/map_02"
+  ],
+  "equipment": {
+    "wellhead": "textures/production/equipment/wellhead",
+    "manifold": "textures/production/equipment/manifold",
+    "plem": "textures/production/equipment/plem"
+  },
+  "pipes": {
+    "standard": "textures/production/pipes/pipe_standard",
+    "trunkline": "textures/production/pipes/pipe_trunkline",
+    "flowline": "textures/production/pipes/pipe_flowline"
+  },
+  "decorations": [
+    "textures/production/decorations/deco_01",
+    "textures/production/decorations/deco_02",
+    "textures/production/decorations/deco_03",
+    "textures/production/decorations/deco_04",
+    "textures/production/decorations/deco_05",
+    "textures/production/decorations/deco_06",
+    "textures/production/decorations/deco_07",
+    "textures/production/decorations/deco_08",
+    "textures/production/decorations/deco_09",
+    "textures/production/decorations/deco_10",
+    "textures/production/decorations/deco_11",
+    "textures/production/decorations/deco_12",
+    "textures/production/decorations/deco_13",
+    "textures/production/decorations/deco_14",
+    "textures/production/decorations/deco_15",
+    "textures/production/decorations/deco_16"
+  ],
+  "terrainStyles": {
+    "style1": [
+      "textures/production/terrain/style1/obstacle_01",
+      "textures/production/terrain/style1/obstacle_02",
+      "textures/production/terrain/style1/obstacle_03",
+      "textures/production/terrain/style1/obstacle_04",
+      "textures/production/terrain/style1/obstacle_05",
+      "textures/production/terrain/style1/obstacle_06",
+      "textures/production/terrain/style1/obstacle_07",
+      "textures/production/terrain/style1/obstacle_08",
+      "textures/production/terrain/style1/obstacle_09",
+      "textures/production/terrain/style1/obstacle_10"
+    ]
+  }
+}
