@@ -425,3 +425,93 @@ h1 {
     width: 112px;
   }
 }
+
+/* ===== Intro Video Loader ===== */
+.intro-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  background: #000;
+  overflow: hidden;
+  transition: opacity 0.8s ease-out;
+}
+
+.intro-loader.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.intro-loader.hidden {
+  display: none !important;
+}
+
+.intro-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: #000;
+}
+
+.skip-intro-btn {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 101;
+  min-height: 38px;
+  padding: 8px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #f5f1df;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.skip-intro-btn:hover {
+  background: rgba(215, 168, 71, 0.5);
+  border-color: #d7a847;
+}
+
+.intro-loading-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  z-index: 101;
+  color: rgba(245, 241, 223, 0.7);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  animation: introPulse 1.4s ease-in-out infinite;
+}
+
+.intro-loading-hint.hidden {
+  display: none;
+}
+
+@keyframes introPulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+@media (max-width: 760px) {
+  .skip-intro-btn {
+    right: 12px;
+    bottom: 12px;
+    min-height: 34px;
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+
+  .intro-loading-hint {
+    bottom: 12px;
+    font-size: 11px;
+  }
+}

@@ -4,9 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Pipe Tycoon - Subsea Network</title>
-    <link rel="stylesheet" href="./src/styles.css?v=20260528-6" />
+    <link rel="stylesheet" href="./src/styles.css?v=20260705-intro-video" />
   </head>
   <body>
+    <section id="introLoader" class="intro-loader">
+      <video id="introVideo" class="intro-video" autoplay muted playsinline>
+        <source src="./src/assets/videos/intro.mp4" type="video/mp4" />
+      </video>
+      <button id="skipIntroBtn" class="skip-intro-btn" type="button">Skip &rsaquo;</button>
+      <div id="introLoadingHint" class="intro-loading-hint">Loading game assets&hellip;</div>
+    </section>
     <section id="welcomeScreen" class="welcome-screen">
       <div class="welcome-panel">
         <p class="eyebrow">OFFSHORE DEFENSE GRID</p>
@@ -130,6 +137,6 @@
       </aside>
     </main>
 
-    <script type="module" src="./src/main.js?v=20260601-preload-clear-video"></script>
+    <script type="module" src="./src/main.js?v=20260705-intro-video"></script>
   </body>
 </html>

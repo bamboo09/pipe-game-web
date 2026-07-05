@@ -52,6 +52,11 @@ const resetBtn = document.querySelector("#resetBtn");
 const finishBtn = document.querySelector("#finishBtn");
 const nextBtn = document.querySelector("#nextBtn");
 
+const introLoader = document.querySelector("#introLoader");
+const introVideo = document.querySelector("#introVideo");
+const skipIntroBtn = document.querySelector("#skipIntroBtn");
+const introLoadingHint = document.querySelector("#introLoadingHint");
+
 const W = canvas.width;
 const H = canvas.height;
 const DEFAULT_PLATFORM = { x: W - 120, y: H * 0.5, r: 24 };
@@ -2352,6 +2357,48 @@ async function initGame() {
   renderWelcome();
   initStateVideoPlayers();
   startVisualTicker();
+  onGameAssetsReady();
 }
+
+function dismissIntroLoader() {
+  if (!introLoader || introLoader.classList.contains("fade-out")) return;
+  introLoader.classList.add("fade-out");
+  introVideo?.pause();
+  setTimeout(() => {
+    introLoader.classList.add("hidden");
+  }, 850);
+}
+
+let gameAssetsReady = false;
+let introVideoDone = false;
+
+function onGameAssetsReady() {
+  gameAssetsReady = true;
+  introLoadingHint?.classList.add("hidden");
+  if (introVideoDone) dismissIntroLoader();
+}
+
+function onIntroVideoEnd() {
+  introVideoDone = true;
+  if (gameAssetsReady) {
+    dismissIntroLoader();
+  } else {
+    introVideo?.pause();
+  }
+}
+
+if (introVideo) {
+  introVideo.addEventListener("ended", onIntroVideoEnd);
+  introVideo.addEventListener("error", onIntroVideoEnd);
+  if (introVideo.readyState >= 3) {
+    introVideo.play().catch(() => onIntroVideoEnd());
+  } else {
+    introVideo.addEventListener("loadeddata", () => {
+      introVideo.play().catch(() => onIntroVideoEnd());
+    });
+  }
+}
+
+skipIntroBtn?.addEventListener("click", onIntroVideoEnd);
 
 initGame();
